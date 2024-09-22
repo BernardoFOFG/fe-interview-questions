@@ -45,7 +45,15 @@ export const App = () => {
 						</nav>
 					</div>
 
-					<GitHubButton href="https://github.com/bernardofofg/fe-interview-questions" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star buttons/github-buttons on GitHub">Star</GitHubButton>
+					<GitHubButton
+						href="https://github.com/bernardofofg/fe-interview-questions"
+						data-color-scheme="no-preference: light; light: light; dark: dark;"
+						data-size="large"
+						data-show-count="true"
+						aria-label="Star buttons/github-buttons on GitHub"
+					>
+						Star
+					</GitHubButton>
 				</div>
 				<div className="flex flex-col items-center space-y-3">
 					<h1 className="text-7xl font-bold bg-gradient-to-r from-primary to-white/80 bg-clip-text text-transparent leading-none">
@@ -58,17 +66,32 @@ export const App = () => {
 					</p>
 				</div>
 				<div>
-					<p className='text-xl'>
+					<p className="text-xl">
 						Esse projeto surgiu como uma ideia de por meus conhecimentos em
 						prática, e também te fazer refletir um pouco sobre seus estudos.{' '}
 						<strong>Viu algo de errado ou quer contruibir?</strong> Veja mais em{' '}
 						<a href="/">guia de contribuição</a>
 					</p>
 				</div>
-				<div className='mt-auto flex w-full flex-col gap-1 text-sm'>
-					<p>Todos direitos reservados 2024. Projeto desenvolvido por <a className='text-primary hover:opacity-70 transition-all font-bold' href="https://github.com/BernardoFOFG/">Bernardo Filipe</a></p>
-					<p>Curioso sobre o intuito desse projeto? <a className='text-primary hover:opacity-70 transition-all font-bold' href="/about">
-						Clique aqui e saiba mais</a></p>
+				<div className="mt-auto flex w-full flex-col gap-1 text-sm">
+					<p>
+						Todos direitos reservados 2024. Projeto desenvolvido por{' '}
+						<a
+							className="text-primary hover:opacity-70 transition-all font-bold"
+							href="https://github.com/BernardoFOFG/"
+						>
+							Bernardo Filipe
+						</a>
+					</p>
+					<p>
+						Curioso sobre o intuito desse projeto?{' '}
+						<a
+							className="text-primary hover:opacity-70 transition-all font-bold"
+							href="/about"
+						>
+							Clique aqui e saiba mais
+						</a>
+					</p>
 				</div>
 			</section>
 		</Layout>
