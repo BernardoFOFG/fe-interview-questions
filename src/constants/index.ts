@@ -5,7 +5,7 @@ interface INavigationList {
 
 export const NAVIGATION_LIST: INavigationList[] = [
 	{
-		href: '/',
+		href: '/general',
 		title: 'Geral',
 	},
 	{
