@@ -1,11 +1,16 @@
+import type { ReactNode } from 'react';
+import { ListItem } from './list-item';
+
 interface SectionQuestionsProps {
 	title: string;
-	questions: string[];
+	questions?: string[];
+	children?: ReactNode;
 }
 
 export const SectionQuestions = ({
 	title,
 	questions,
+	children,
 }: SectionQuestionsProps) => {
 	return (
 		<section className="flex flex-col gap-6 mt-8">
@@ -15,14 +20,15 @@ export const SectionQuestions = ({
 				</h1>
 			</div>
 
-			<ul className="space-y-4">
-				{questions.map((v) => (
-					<li key={v} className="flex gap-2 items-center">
-						<span className="min-w-2 min-h-2 bg-primary rounded-full" />
-						<span className="base:text-lg md:text-2xl">{v}</span>
-					</li>
-				))}
-			</ul>
+			{questions && (
+				<ul className="space-y-4">
+					{questions.map((v) => (
+						<ListItem content={v} key={v} />
+					))}
+				</ul>
+			)}
+
+			{children && children}
 		</section>
 	);
 };
