@@ -19,11 +19,11 @@ export const Header = () => {
 				</a>
 				<div className="h-px w-full bg-white/20" />
 
-				<div className="flex gap-3 items-center py-8 text-xl">
+				<div className="flex gap-3 items-center base:py-2 md:py-8 text-xl">
 					<h3>
 						<strong>Perguntas:</strong>
 					</h3>
-					<nav>
+					<nav className="overflow-auto">
 						<ul className="flex items-center gap-3">
 							{NAVIGATION_LIST.map((item) => {
 								return (
