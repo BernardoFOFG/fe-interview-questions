@@ -1,5 +1,5 @@
+import { General } from './screens/general';
 import { Home } from './screens/home';
-import { Html } from './screens/html';
 
 interface IRouterList {
 	path: string;
@@ -13,7 +13,7 @@ export const ROUTER_LIST: IRouterList[] = [
 	},
 	{
 		path: '/general',
-		element: <Html />,
+		element: <General />,
 	},
 	{
 		path: '/html',
