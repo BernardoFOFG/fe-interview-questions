@@ -2,6 +2,7 @@ import { Css } from './screens/css';
 import { General } from './screens/general';
 import { Home } from './screens/home';
 import { Html } from './screens/html';
+import { Javascript } from './screens/javascript';
 
 interface IRouterList {
 	path: string;
@@ -27,7 +28,7 @@ export const ROUTER_LIST: IRouterList[] = [
 	},
 	{
 		path: '/javascript',
-		element: <div>Página Javascript</div>,
+		element: <Javascript />,
 	},
 	{
 		path: '/a11y',
