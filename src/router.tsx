@@ -1,3 +1,4 @@
+import { Css } from './screens/css';
 import { General } from './screens/general';
 import { Home } from './screens/home';
 import { Html } from './screens/html';
@@ -22,7 +23,7 @@ export const ROUTER_LIST: IRouterList[] = [
 	},
 	{
 		path: '/css',
-		element: <div>Página CSS</div>,
+		element: <Css />,
 	},
 	{
 		path: '/javascript',
