@@ -32,3 +32,19 @@ export const GENERAL_QUESTIONS = [
 	'Você está familiarizado com renderização estática?',
 	'O que é reidratação? (Rehydration)',
 ];
+
+export const HTML_QUESTIONS = [
+	'O que faz um doctype?',
+	'Como você serve uma página com conteúdo em vários idiomas?',
+	'De que tipo de coisas você deve estar ciente ao projetar ou desenvolver sites multilíngues?',
+	'Para que servem os atributos data-?',
+	'Considere o HTML5 como uma plataforma web aberta. Quais são os blocos de construção do HTML5?',
+	'Descreva a diferença entre um cookie, sessionStorage e localStorage.',
+	'Descreva a diferença entre <script>, <script async> e <script defer>.',
+	'Por que geralmente é uma boa ideia posicionar os links de CSS entre <head></head> e os scripts JS antes de </body>? Você conhece alguma exceção?',
+	'O que é renderização progressiva?',
+	'Por que você usaria o atributo srcset em uma tag de imagem? Explique o processo que o navegador usa ao avaliar o conteúdo desse atributo.',
+	'Você já usou diferentes linguagens de template HTML antes?',
+	'Qual é a diferença entre canvas e svg?',
+	'Quais são os elementos vazios no HTML?',
+];
