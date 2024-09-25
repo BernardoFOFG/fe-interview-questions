@@ -1,3 +1,4 @@
+import { A11y } from './screens/a11y';
 import { Css } from './screens/css';
 import { General } from './screens/general';
 import { Home } from './screens/home';
@@ -32,7 +33,7 @@ export const ROUTER_LIST: IRouterList[] = [
 	},
 	{
 		path: '/a11y',
-		element: <div>Página A11y</div>,
+		element: <A11y />,
 	},
 	{
 		path: '/test',
