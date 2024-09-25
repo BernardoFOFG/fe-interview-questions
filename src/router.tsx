@@ -1,4 +1,5 @@
-import { App } from './app';
+import { Home } from './screens/home';
+import { Html } from './screens/html';
 
 interface IRouterList {
 	path: string;
@@ -8,11 +9,11 @@ interface IRouterList {
 export const ROUTER_LIST: IRouterList[] = [
 	{
 		path: '/',
-		element: <App />,
+		element: <Home />,
 	},
 	{
 		path: '/general',
-		element: <div>Página General</div>,
+		element: <Html />,
 	},
 	{
 		path: '/html',

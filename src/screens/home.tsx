@@ -1,6 +1,6 @@
-import { Layout } from './layout';
+import { Layout } from '../layout';
 
-export const App = () => {
+export const Home = () => {
 	return (
 		<Layout>
 			<div className="flex flex-col items-center space-y-3">
