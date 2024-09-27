@@ -2,6 +2,7 @@ import { A11y } from './screens/a11y';
 import { Coding } from './screens/coding';
 import { Connection } from './screens/connection';
 import { Css } from './screens/css';
+import { Fun } from './screens/fun';
 import { General } from './screens/general';
 import { Home } from './screens/home';
 import { Html } from './screens/html';
@@ -56,7 +57,7 @@ export const ROUTER_LIST: IRouterList[] = [
 		element: <Coding />,
 	},
 	{
-		path: '/others',
-		element: <div>Página Diversos</div>,
+		path: '/fun',
+		element: <Fun />,
 	},
 ];

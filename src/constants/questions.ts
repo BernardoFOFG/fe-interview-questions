@@ -176,3 +176,10 @@ export const CODING_QUESTIONS = [
 	"const person = { name: 'Alice', age: 25 };\nconsole.log(person.name);",
 	'const square = num => num ** 2;\nconsole.log(square(3));',
 ];
+
+export const OTHERS_QUESTIONS = [
+	'Qual foi um projeto legal em que você trabalhou recentemente?',
+	'Quais são algumas coisas que você gosta nas ferramentas de desenvolvimento que você usa?',
+	'Quem te inspira na comunidade de front-end?',
+	'Você tem algum projeto pessoal? Que tipo?',
+];
