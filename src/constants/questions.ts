@@ -144,3 +144,11 @@ export const JAVASCRIPT_QUESTIONS = [
 	'Qual é a diferença entre event.target e event.currentTarget?',
 	'Qual é a diferença entre event.preventDefault() e event.stopPropagation()?',
 ];
+
+export const TEST_QUESTIONS = [
+	'Quais são algumas vantagens/desvantagens de testar seu código?',
+	'Quais ferramentas você usaria para testar a funcionalidade do seu código?',
+	'Qual é a diferença entre um teste unitário e um teste funcional/integrado?',
+	'Qual é o propósito de uma ferramenta de linting de estilo de código?',
+	'Quais são algumas das melhores práticas de testes?',
+];
