@@ -152,3 +152,9 @@ export const TEST_QUESTIONS = [
 	'Qual é o propósito de uma ferramenta de linting de estilo de código?',
 	'Quais são algumas das melhores práticas de testes?',
 ];
+
+export const PERFORMANCE_QUESTIONS = [
+	'Quais ferramentas você usaria para encontrar um bug de desempenho no seu código?',
+	'Quais são algumas maneiras de melhorar o desempenho de rolagem do seu site?',
+	'Explique a diferença entre layout, pintura e composição.',
+];

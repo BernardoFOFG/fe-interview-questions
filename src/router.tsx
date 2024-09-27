@@ -4,6 +4,7 @@ import { General } from './screens/general';
 import { Home } from './screens/home';
 import { Html } from './screens/html';
 import { Javascript } from './screens/javascript';
+import { Perfomance } from './screens/performance';
 import { Test } from './screens/test';
 
 interface IRouterList {
@@ -42,7 +43,7 @@ export const ROUTER_LIST: IRouterList[] = [
 	},
 	{
 		path: '/performance',
-		element: <div>Página Perfomance</div>,
+		element: <Perfomance />,
 	},
 	{
 		path: '/network',
