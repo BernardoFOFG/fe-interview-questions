@@ -1,6 +1,6 @@
 export const Footer = () => {
 	return (
-		<footer className="mt-auto flex w-full flex-col gap-1 text-sm base:mt-8 md:mt-0">
+		<footer className="flex w-full flex-col gap-1 text-sm h-full justify-end base:mt-8 md:mt-0">
 			<p>
 				Todos direitos reservados 2024. Projeto desenvolvido por{' '}
 				<a
