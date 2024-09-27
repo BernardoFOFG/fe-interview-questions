@@ -1,4 +1,5 @@
 import { A11y } from './screens/a11y';
+import { Coding } from './screens/coding';
 import { Connection } from './screens/connection';
 import { Css } from './screens/css';
 import { General } from './screens/general';
@@ -51,8 +52,8 @@ export const ROUTER_LIST: IRouterList[] = [
 		element: <Connection />,
 	},
 	{
-		path: '/code',
-		element: <div>Página Código</div>,
+		path: '/coding',
+		element: <Coding />,
 	},
 	{
 		path: '/others',

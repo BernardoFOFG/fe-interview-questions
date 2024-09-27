@@ -158,3 +158,21 @@ export const PERFORMANCE_QUESTIONS = [
 	'Quais são algumas maneiras de melhorar o desempenho de rolagem do seu site?',
 	'Explique a diferença entre layout, pintura e composição.',
 ];
+
+export const CODING_QUESTIONS = [
+	'let a = 5;\nlet b = 10;\nconsole.log(a + b);',
+	"let x = 3;\nlet y = '7';\nconsole.log(x + y);",
+	'const isEven = num => num % 2 === 0;\nconsole.log(isEven(4));',
+	"let fruits = ['apple', 'banana', 'cherry'];\nconsole.log(fruits.length);",
+	"let num = 8;\nconsole.log(num > 10 ? 'Greater' : 'Smaller');",
+	"const greet = name => `Hello, ${name}!`;\nconsole.log(greet('John'));",
+	'let counter = 0;\nfor (let i = 0; i < 5; i++) {\n  counter += i;\n}\nconsole.log(counter);',
+	'let arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);',
+	'let isValid = false;\nconsole.log(!isValid);',
+	'const add = (a, b) => a + b;\nconsole.log(add(5, 7));',
+	"let str = 'Hello World';\nconsole.log(str.toUpperCase());",
+	'let num = 6;\nnum *= 2;\nconsole.log(num);',
+	"let animals = ['dog', 'cat', 'bird'];\nanimals[1] = 'fish';\nconsole.log(animals);",
+	"const person = { name: 'Alice', age: 25 };\nconsole.log(person.name);",
+	'const square = num => num ** 2;\nconsole.log(square(3));',
+];
