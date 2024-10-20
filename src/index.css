@@ -4,4 +4,9 @@
 
 * {
   font-family: "League Spartan", sans-serif;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: initial
 }

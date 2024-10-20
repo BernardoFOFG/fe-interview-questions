@@ -1,0 +1,92 @@
+import SectionQuestions from '../components/section_questions'
+import Layout from '../layout'
+
+<Layout>
+  <SectionQuestions title="Perguntas de Acessibilidade" />
+
+As perguntas são agrupadas em quatro categorias:
+
+<div className="flex gap-1">
+[Geral](#geral)
+[Técnico](#tecnico)
+[Design](#design)
+[Conteúdo](#conteudo)
+</div>
+
+<h2 className='font-bold text-xl' id="geral">Geral</h2>
+
+- Quem se beneficia da acessibilidade?
+- Como você definiria design inclusivo e/ou design universal?
+- Você pode dar um exemplo? (não precisa estar relacionado à web/tecnologia)
+- Como sua abordagem à acessibilidade mudou ao longo do tempo?
+- Nomeie algumas maneiras como o design responsivo ou mobile-first pode afetar a acessibilidade.
+- Quais são algumas preocupações de experiência do usuário (UX) ao usar iconografia em interfaces de usuário (UI)?
+- Com quais tecnologias assistivas (ATs) você está familiarizado (desktop e/ou móvel)?
+- Qual o seu nível de habilidade com essas AT(s)?
+- O que são links de pular (skip links)?
+- Quais benefícios eles fornecem?
+- Quais são algumas de suas limitações?
+- Quais são algumas das ferramentas disponíveis para testar a acessibilidade de um site ou aplicativo web?
+- O que é WCAG?
+- Quais são as diferenças entre conformidade A, AA e AAA?
+- Como o uso de linguagem simples pode beneficiar a acessibilidade de um projeto?
+- Descreva instâncias em que você usaria um link ou botão.
+- Descreva maneiras de transmitir o estado de um elemento ou componente que não sejam totalmente dependentes de visuais.
+- Como carrosséis podem ser problemáticos para usuários com deficiência?
+- Como você convenceria seu gerente a alocar fundos para uma auditoria de acessibilidade?
+- Descreva uma situação em que um colega tenha sido resistente às melhores práticas de acessibilidade ou design inclusivo.
+- Que tipo de estratégias você usa em situações como essas para ajudar a educar colegas de trabalho?
+- Se alguém estiver buscando assumir um papel de liderança:
+  - Descreva o tipo de cultura em torno da acessibilidade que você criaria e como você faria isso.
+  - Quando há mais trabalho de acessibilidade do que a equipe pode lidar, como você prioriza?
+  - Se um cliente/parte interessada não quiser pagar pela acessibilidade, o que você faria?
+
+<h2 className='font-bold text-xl' id="tecnico">Técnico</h2>
+
+
+- Quais métodos você pode usar para encontrar o nome acessível de um elemento?
+- O que é a árvore de acessibilidade?
+- Por que rems ou ems são preferíveis a pixels para definir o tamanho do texto?
+- Por que é importante permitir que o viewport seja redimensionado e/ou ampliado?
+- Como o atributo title é exposto às tecnologias assistivas?
+- Que tipo de elementos podem usar atributos title?
+- Que tipo de informações são apropriadas para o uso com o atributo title?
+- Forneça um exemplo de quando você precisaria adicionar uma descrição a um elemento.
+- Como você exporia essa descrição programaticamente?
+- O que é uma armadilha de foco (focus trap) ou captura de foco?
+- Descreva uma instância em que você precisaria de captura de foco.
+- Descreva uma instância em que isso seria uma barreira de acessibilidade.
+- Descreva uma situação em que o atributo tabindex seria útil.
+- Forneça um exemplo de quando o uso do atributo tabindex pode causar problemas.
+- O que são regiões de referência (landmark regions) e como podem ser úteis?
+- Em quais situações você usaria um botão de alternância (toggle button) em vez de um controle de switch ou uma caixa de seleção (checkbox)?
+- Descreva métodos para ocultar conteúdo:
+  - De todos os usuários.
+  - Somente dos usuários de leitores de tela.
+  - De usuários videntes, mas não de usuários de leitores de tela.
+  - E por que você faria isso.
+- Forneça exemplos de uso incorreto comum de atributos ARIA.
+- Além dos leitores de tela, quais outras tecnologias assistivas podem ser afetadas pelo uso de ARIA? Como?
+- Qual é a diferença entre os seguintes atributos: hidden, aria-hidden='true' e role='presentation' ou role='none'?
+- Descreva instâncias em que você precisaria usar aria-live.
+- Que valores (como assertive ou polite) você daria ao atributo em diferentes situações?
+- Como você marcaria uma fonte de ícone ou SVG para fins decorativos?
+- Conteúdo pseudo de CSS é entendido por leitores de tela?
+- Qual é o propósito do atributo alt para imagens?
+- Você pode descrever o efeito de um alt vazio e/ou a falta do atributo em uma imagem?
+- Em quais instâncias um alt vazio ou a ausência de alt seria apropriado?
+- Como o texto alternativo para uma imagem pode variar dependendo do contexto em que a imagem é usada?
+- Como os svgs não aceitam o atributo alt, como você forneceria texto alternativo para esses gráficos?
+- É necessário fornecer um atributo alt a uma imagem se ela for usada dentro de uma figure com um figcaption?
+- Descreva as etapas que você segue ao revisar ou auditar um site ou aplicativo para acessibilidade.
+- Descreva uma instância em que um teste automatizado não sinalizaria um erro flagrante de acessibilidade.
+- Quando você recomendaria o uso de papéis ou atributos ARIA para resolver um problema de acessibilidade?
+- Descreva seu processo para descobrir se um bug de acessibilidade é devido a um erro de desenvolvedor, navegador ou tecnologia assistiva.
+- Qual é a diferença entre os elementos legend, caption e label?
+- Quais são suas semelhanças?
+- Descreva o propósito dos elementos de cabeçalho e título, e como eles são úteis em sites e aplicativos.
+- Descreva como você lidaria com o gerenciamento do foco do teclado em um aplicativo web de página única (SPA) ao mudar de rota.
+- Qual é o seu entendimento sobre 'cálculo do nome acessível' e como isso afeta a modificação da forma como os leitores de tela anunciam determinado conteúdo?
+- Quais são alguns problemas com a modificação do comportamento normal de rolagem? Por exemplo: rolagem infinita ou scrolljacking.
+- Alguns widgets ARIA são atualmente melhor suportados em dispositivos com teclado físico, em vez de interfaces móveis/touch. Você está ciente de algum widget que seria descrito dessa forma e por quê?
+</Layout>

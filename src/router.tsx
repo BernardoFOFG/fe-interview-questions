@@ -1,14 +1,14 @@
-import { A11y } from './screens/a11y';
-import { Coding } from './screens/coding';
-import { Connection } from './screens/connection';
-import { Css } from './screens/css';
-import { Fun } from './screens/fun';
-import { General } from './screens/general';
-import { Home } from './screens/home';
-import { Html } from './screens/html';
-import { Javascript } from './screens/javascript';
-import { Perfomance } from './screens/performance';
-import { Test } from './screens/test';
+import Home from './screens/home.mdx';
+import General from './screens/general.mdx';
+import Html from './screens/html.mdx';
+import Css from './screens/css.mdx';
+import Javascript from './screens/javascript.mdx';
+import A11y from './screens/a11y.mdx';
+import Test from './screens/test.mdx';
+import Coding from './screens/coding.mdx';
+import Connection from './screens/connection.mdx';
+import Fun from './screens/fun.mdx';
+import Perfomance from './screens/performance.mdx';
 
 interface IRouterList {
 	path: string;

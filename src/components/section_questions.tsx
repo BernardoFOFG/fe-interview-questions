@@ -32,3 +32,5 @@ export const SectionQuestions = ({
 		</section>
 	);
 };
+
+export default SectionQuestions; // Aqui estamos exportando como default

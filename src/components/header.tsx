@@ -27,7 +27,7 @@ export const Header = () => {
 						<ul className="flex items-center gap-3">
 							{NAVIGATION_LIST.map((item) => {
 								return (
-									<li key={item.title} className="relative">
+									<li key={item.title} className="relative list-none">
 										<a
 											href={item.href}
 											className={`relative hover:text-primary transition-all 
